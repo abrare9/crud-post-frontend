@@ -1,0 +1,29 @@
+.form-post-container{
+  .form-title{
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid rgba(67, 79, 137, 0.49);
+    color: #FFFFFF;
+    background-color: #434F89;
+  }
+  .form-element{
+    width: 80%;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+  }
+  ::ng-deep .mat-mdc-text-field-wrapper {
+    background-color: #FFFFFF;
+  }
+  .submit-field{
+    display: flex;
+    justify-content: end;
+    padding: 10px 0;
+  }
+
+}

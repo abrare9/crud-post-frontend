@@ -1,0 +1,27 @@
+.post-container{
+  width: 280px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  .post-title{
+    padding: 5px 20px;
+    background-color: #434F89;
+    color: #FFFFFF;
+    border-radius: 0 16px 0 16px;
+    width: fit-content;
+    align-self : end;
+  }
+  .post-description{
+    padding: 25px 15px;
+    font-size: 12px;
+  }
+  .delete-post{
+    background-color: #FF0579 ;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 0 0 16px 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
